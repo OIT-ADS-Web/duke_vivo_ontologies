@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xmlns:duke="http://vivo.duke.edu/vivo/ontology/duke-extension#"
+    xmlns:dukeart="http://vivo.duke.edu/vivo/ontology/duke-art-extension#"
+    xmlns:dukegeo="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#"
     xmlns:c4o="http://purl.org/spar/c4o/"
     xmlns:vitro-public="http://vitro.mannlib.cornell.edu/ns/vitro/public#"
     xmlns:ero="http://purl.obolibrary.org/obo/"
@@ -20,9 +23,7 @@
     xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
     xmlns:j.1="http://purl.org/vocab/vann/"
     xmlns:j.2="http://www.w3.org/2008/05/skos#"
-    xmlns:duke="http://vivo.duke.edu/vivo/ontology/duke-extension#"
     xmlns:j.3="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-    xmlns:dukeart="http://vivo.duke.edu/vivo/ontology/duke-art-extension#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:fabio="http://purl.org/spar/fabio/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">

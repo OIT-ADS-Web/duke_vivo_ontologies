@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><rdf:RDF
+    xmlns:duke="http://vivo.duke.edu/vivo/ontology/duke-extension#"
+    xmlns:dukeart="http://vivo.duke.edu/vivo/ontology/duke-art-extension#"
+    xmlns:dukegeo="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#"
     xmlns:vitro-public="http://vitro.mannlib.cornell.edu/ns/vitro/public#"
     xmlns:geo="http://aims.fao.org/aos/geopolitical.owl#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -13,7 +16,6 @@
     xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.2="http://www.w3.org/2008/05/skos#"
-    xmlns:duke="http://vivo.duke.edu/vivo/ontology/duke-extension#"
     xmlns:afn="http://jena.hpl.hp.com/ARQ/function#"
     xmlns:bibo="http://purl.org/ontology/bibo/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -314,7 +316,7 @@
     <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
     <vitro:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Article</vitro:shortDef>
-    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo#Article"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Article"/>
     <rdfs:label xml:lang="en-US">Other Article</rdfs:label>
   </rdf:Description>
 
