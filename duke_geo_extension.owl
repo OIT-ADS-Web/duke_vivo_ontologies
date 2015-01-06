@@ -35,6 +35,7 @@
 
     <owl:SymmetricProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#geographicallyRelatesTo">
       <rdfs:label xml:lang="en-US">geographic focus</rdfs:label>
+      <vitro:collateBySubclassAnnot>true</vitro:collateBySubclassAnnot>
     </owl:SymmetricProperty>
 
     <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#GeographicRelationship">
