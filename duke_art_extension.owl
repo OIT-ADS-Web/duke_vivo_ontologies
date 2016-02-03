@@ -138,6 +138,13 @@
     >Choreography</vitro:shortDef>
   </owl:Class>
 
+  <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-art-extension#MuseumCollection">
+    <rdfs:label xml:lang="en-US">Museum Collection</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vivo.duke.edu/vivo/ontology/duke-art-extension#ArtisticWork"/>
+    <vitro:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Museum Collection</vitro:shortDef>
+  </owl:Class>
+
   <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-art-extension#MusicalComposition">
     <rdfs:label xml:lang="en-US">Musical Composition</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://vivo.duke.edu/vivo/ontology/duke-art-extension#ArtisticWork"/>
