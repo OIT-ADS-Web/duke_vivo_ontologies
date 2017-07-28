@@ -3,6 +3,7 @@
     xmlns:vitro-public="http://vitro.mannlib.cornell.edu/ns/vitro/public#"
     xmlns:ero="http://purl.obolibrary.org/obo/"
     xmlns:dukeact="http://vivo.duke.edu/vivo/ontology/duke-activity-extension#"
+    xmlns:dukecv="http://vivo.duke.edu/vivo/ontology/duke-cv-extension#"
     xmlns:pvs="http://vivoweb.org/ontology/provenance-support#"
     xmlns:j.0="http://www.w3.org/2006/12/owl2-xml#"
     xmlns:scirr="http://vivoweb.org/ontology/scientific-research-resource#"
@@ -117,7 +118,7 @@
     </owl:inverseOf>
     <rdfs:label xml:lang="en-US">Performed by</rdfs:label>
     <vitro:collateBySubclassAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</vitro:collateBySubclassAnnot>
+    >false</vitro:collateBySubclassAnnot>
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</vitro:selectFromExistingAnnot>
     <rdfs:domain rdf:resource="http://vivo.duke.edu/vivo/ontology/duke-activity-extension#ProfessionalActivity"/>
@@ -265,11 +266,17 @@
   </owl:DatatypeProperty>
 
   <!-- View Customizations -->
+
   <rdf:Description rdf:about="http://vivo.duke.edu/vivo/ontology/duke-activity-extension#ProfessionalActivity">
       <vitro:customDisplayViewAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual--dukeact-professional-activity.ftl</vitro:customDisplayViewAnnot>
   </rdf:Description>
+
   <rdf:Description rdf:about="http://vivoweb.org/ontology/core#AdvisingRelationship">
     <vitro:customDisplayViewAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual--vivo-advising-relationship.ftl</vitro:customDisplayViewAnnot>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Grant">
+    <vitro:customDisplayViewAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">individual--vivo-agreement.ftl</vitro:customDisplayViewAnnot>
   </rdf:Description>
 
 </rdf:RDF>

@@ -3,6 +3,7 @@
      xmlns:duke="http://vivo.duke.edu/vivo/ontology/duke-extension#"
      xmlns:duke-art="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#"
      xmlns:duke-geo="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#"
+     xmlns:dukecv="http://vivo.duke.edu/vivo/ontology/duke-cv-extension#"
      xmlns:afn="http://jena.hpl.hp.com/ARQ/function#"
      xmlns:scires="http://vivoweb.org/ontology/scientific-research#"
      xmlns:scirr="http://vivoweb.org/ontology/scientific-research-resource#"
@@ -34,7 +35,7 @@
     </owl:Ontology>
 
     <owl:SymmetricProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-geo-extension#geographicallyRelatesTo">
-      <rdfs:label xml:lang="en-US">geographic focus</rdfs:label>
+      <rdfs:label xml:lang="en-US">global scholarship</rdfs:label>
       <vitro:collateBySubclassAnnot>true</vitro:collateBySubclassAnnot>
     </owl:SymmetricProperty>
 
