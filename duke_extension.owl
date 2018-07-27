@@ -499,6 +499,7 @@
   </owl:ObjectProperty>
 
   <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Software">
+    <rdfs:label xml:lang="en-US">Software</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
 
