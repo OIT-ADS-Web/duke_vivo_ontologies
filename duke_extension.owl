@@ -750,4 +750,13 @@
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
 
+  <owl:ObjectProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#thumbnailImage500">
+    <rdfs:domain>
+      <owl:Class rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/public#thumbnailImage"/>
+    </rdfs:domain>
+    <rdfs:range>
+      <owl:Class rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/public#thumbnailImage"/>
+    </rdfs:range>
+  </owl:ObjectProperty>
+
 </rdf:RDF>
