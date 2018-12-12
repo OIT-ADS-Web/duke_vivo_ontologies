@@ -750,6 +750,7 @@
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
 
+  <!-- image500 is needed to make thumbnails -->
   <owl:ObjectProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#thumbnailImage500">
     <rdfs:domain>
       <owl:Class rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/public#thumbnailImage"/>
@@ -758,5 +759,6 @@
       <owl:Class rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/public#thumbnailImage"/>
     </rdfs:range>
   </owl:ObjectProperty>
+  <!-- adding these comment blocks to try and get around merge resolved but ignoring -->
 
 </rdf:RDF>
