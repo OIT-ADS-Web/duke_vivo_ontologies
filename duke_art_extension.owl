@@ -120,6 +120,14 @@
       <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#editor"/>
    </owl:DatatypeProperty>
 
+  <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-art-extension#ArtHistory">
+    <rdfs:label xml:lang="en-US">Art History</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vivo.duke.edu/vivo/ontology/duke-art-extension#ArtisticWork"/>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
+    <vitro:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Art History</vitro:shortDef>
+  </owl:Class>
+
   <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-art-extension#AudioRecording">
     <rdfs:label xml:lang="en-US">Audio Recording</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://vivo.duke.edu/vivo/ontology/duke-art-extension#ArtisticWork"/>
@@ -318,6 +326,14 @@
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
     <vitro:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Repertoire/Portfolio</vitro:shortDef>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-art-extension#Research">
+    <rdfs:label xml:lang="en-US">Research</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vivo.duke.edu/vivo/ontology/duke-art-extension#ArtisticWork"/>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
+    <vitro:shortDef rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Research</vitro:shortDef>
   </owl:Class>
 
   <owl:Class rdf:about="http://vivo.duke.edu/vivo/ontology/duke-art-extension#Script">
