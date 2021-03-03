@@ -621,7 +621,7 @@
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
-    <rdfs:label xml:lang="en-US">Academic Article</rdfs:label>
+    <rdfs:label xml:lang="en-US">Journal Article</rdfs:label>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</vitro:displayRankAnnot>
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
