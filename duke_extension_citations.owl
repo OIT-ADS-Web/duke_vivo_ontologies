@@ -74,7 +74,7 @@
     </rdfs:subPropertyOf>
   </owl:DatatypeProperty>
   
-  <owl:DatatypeProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#icmjeCitation">
+  <owl:DatatypeProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#nlmCitation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en-US">National Library Medicine (NLM) Citation</rdfs:label>
     <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
