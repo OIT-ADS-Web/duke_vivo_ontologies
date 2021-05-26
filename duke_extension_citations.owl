@@ -73,7 +73,17 @@
       <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/duke-extension#publicationCitation"/>
     </rdfs:subPropertyOf>
   </owl:DatatypeProperty>
-
+  
+  <owl:DatatypeProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#icmjeCitation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en-US">National Library Medicine (NLM) Citation</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/duke-extension#publicationCitation"/>
+    </rdfs:subPropertyOf>
+  </owl:DatatypeProperty>
+  
   <owl:ObjectProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#preferredCitationFormat">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
