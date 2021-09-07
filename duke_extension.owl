@@ -750,6 +750,16 @@
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
   </rdf:Description>
 
+  <rdf:Description rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#Preprint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:label xml:lang="en-US">Preprint</rdfs:label>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</vitro:displayRankAnnot>
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
+  </rdf:Description>
+
   <owl:ObjectProperty rdf:about="http://vivo.duke.edu/vivo/ontology/duke-extension#thumbnailImage500">
     <rdfs:domain>
       <owl:Class rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/public#thumbnailImage"/>
